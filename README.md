@@ -12,7 +12,7 @@ Files Included:
    - Contains encoder, decoder, and a forecasting transformer head.
    - Includes training and prediction routines.
 
-2. lstm.py
+2. lstm_model.py
    - Implements an LSTM Autoencoder.
    - Suitable for sequence-to-sequence reconstruction and forecasting.
 
@@ -20,7 +20,7 @@ Files Included:
    - Implements a GRU Autoencoder.
    - Similar architecture to LSTM, but using GRU units.
 
-4. arima_model.py
+4. arima.py
    - Implements ARIMA model using the statsmodels library.
    - Performs univariate forecasting for traditional statistical comparison.
 
